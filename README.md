@@ -4,4 +4,6 @@ The aim of this project is to further optimize the Iterative De-Blending Diffusi
 
 As of now, the AdamW optimizer is the faster algorithm, as it reached a loss of around 100000 at around timestep 800 (and asymptotically reached a loss of 60000) while the SGD optimizer has yet to reach these losses as shown in the graph. Additionally, the learning rate used for SGD was 1e-8, as higher rates (such as 1e-4 and 1e-6) resulted in progressively increasing error. More experimentation is being done to identify an ideal rate.
 
+Please see my presentation on this topic for more information: https://www.youtube.com/watch?v=1rlK8EdIV7A&list=PLcNNdAxkyTja5Vj56Bwy9NdCxt-HLNhgb&ab_channel=ACMatUCSantaCruz
+
 Resources used: https://github.com/tchambon/IADB
